@@ -1,4 +1,4 @@
-# indiasetopenttd.github.io
+# India Set: Website
 ## A part of India Set for OpenTTD
 
 **India Set** is a planned set of comprehensive representative newgrfs for OpenTTD that aims to represent India as much as possible.
