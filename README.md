@@ -7,7 +7,7 @@ This is the git repository for the website of  **India Set.**
 
 **Disclaimer:** Work in progress
 
-## Contributors to India Set:Trains:
+## Contributors to India Set:Website ##
 
 *Sprite Artist:* alfagamma7
 
