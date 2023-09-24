@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0
+}
+body
+{
+    background-color:#2a6099;
+}
+h2.head
+{
+    text-align:left;
+    font-family:Helvetica,sans-serif;
+    color:white;
+    font-size:24px;
+}
+h2.body
+{
+    text-align:left;
+    font-family:Helvetica,sans-serif;
+    color:black;
+    font-size:24px;
+}   
+p.body
+{
+    text-align:left;
+    font-family:Helvetica,sans-serif;
+    color:black;
+    font-size:16px;
+}
+p.foot
+{
+    text-align:center;
+    font-family:Helvetica,sans-serif;
+    color:white;
+    font-size:12px;
+    padding-top:2px;
+}
+.outer-grid
+{
+    height:1000px;
+    display: grid;
+    grid-template:repeat(10,1fr)/repeat(10,1fr);
+    margin:10px 10px;
+}
+.headimg
+{
+    grid-column:2/span 1;
+    display:flex;
+    flex-flow:row wrap;
+    align-items: center;
+    background-color:#2a6099;
+}
+.headimg>    img
+   {
+    height:100px;
+    width:100px;
+    align-self:stretch;
+   }
+.header
+{
+    background-color:#2a6099;
+    grid-column:3/span 7 ;
+    font-family:sans-serif;
+    color:white;
+    border-style:inset;
+    border-width:2px;	   
+    /*Note:NEVER EVER END CURLY QUOTES HERE.*/
+ ul
+{
+  list-style-type: none;
+  overflow: hidden;
+  background-color:#2a6099;
+  align-self:center;
+}
+li
+{
+    float: left;
+}
+/*li a are the links fyi*/
+li a 
+{
+    display: block;
+    color: #0ad;
+    text-align:center;
+    padding-right:10px;
+}
+li a:hover
+{
+    background-color:#0aff;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 12px 0px;
+  margin:0;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #0aff;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2a6099;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align:center;
+}
+
+.dropdown-content a:hover {background-color: #0aff;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+}
+.article
+{
+    background-color:#dddddd;
+    grid-area:2/2/span 8/span 8;
+    border-style:inset;
+    border-width:2px;
+    overflow:scroll;
+    li
+    {
+	font-family:Helvetica,sans-serif;
+        color:black;}
+}
+.footer
+{
+    background-color:#2a6099;
+    grid-column:2/span 8;
+    border-style:inset;
+    border-width:2px;
+    overflow:hidden;
+}
