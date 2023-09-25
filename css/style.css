@@ -43,7 +43,7 @@ p.foot
     grid-template:repeat(10,1fr)/repeat(10,1fr);
     margin:10px 10px;
 }
-.headimg
+.head-img
 {
     grid-column:2/span 1;
     display:flex;
@@ -51,7 +51,7 @@ p.foot
     align-items: center;
     background-color:#2a6099;
 }
-.headimg>    img
+.head-img > img
    {
     height:100px;
     width:100px;
@@ -66,6 +66,7 @@ p.foot
     border-style:inset;
     border-width:2px;	   
     /*Note:NEVER EVER END CURLY QUOTES HERE.*/
+}
  ul
 {
   list-style-type: none;
@@ -88,6 +89,7 @@ li a
 li a:hover
 {
     background-color:#0aff;
+    color: white;
 }
 li a, .dropbtn {
   display: inline-block;
@@ -128,7 +130,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-}
+
 .article
 {
     background-color:#dddddd;
