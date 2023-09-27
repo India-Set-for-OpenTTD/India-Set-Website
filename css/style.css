@@ -138,10 +138,15 @@ li.dropdown {
     border-style:inset;
     border-width:2px;
     overflow:scroll;
-    li
-    {
-	font-family:Helvetica,sans-serif;
-        color:black;}
+}
+ul.body
+{
+    background:#dddddd;
+    list-style-type:none;
+    text-align:left;
+    font-family:Helvetica,sans-serif;
+    color:black;
+    font-size:16px;
 }
 .footer
 {
