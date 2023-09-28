@@ -61,11 +61,10 @@ p.foot
 {
     background-color:#2a6099;
     grid-column:3/span 7 ;
-    font-family:sans-serif;
+    font-family:Helvetica,sans-serif;
     color:white;
     border-style:inset;
-    border-width:2px;	   
-    /*Note:NEVER EVER END CURLY QUOTES HERE.*/
+    border-width:2px;	      
 }
  ul
 {
