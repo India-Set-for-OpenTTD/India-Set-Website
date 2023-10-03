@@ -34,7 +34,6 @@ p.foot
     font-family:Helvetica,sans-serif;
     color:white;
     font-size:12px;
-    padding-top:2px;
 }
 .outer-grid
 {
@@ -156,3 +155,14 @@ ul.body
     border-width:2px;
     overflow:hidden;
 }
+a.foot
+{
+    background-color:#2a6099;
+    text-decoration:none;
+    text-align:center;
+    font-family:Helvetica,sans-serif;
+    color:white;
+    font-size:12px;
+}
+    
+    
